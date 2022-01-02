@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/layout/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <header>
+        <div class="user">
+            <img src="/src/assets/imgs/QElvf103u7s.jpg" alt="">
+            <h3 class="name"></h3>
+            <p class="post"></p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне </a></li>
+                <li><a href="#education">Моё развитие</a></li>
+                <li><a href="#portfolio">Мои работы</a></li>
+                <!-- <li><a href="">Связь</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <script src="/src/components/animation.js"></script>
+    <div id="menu" class="fas fa-bars"></div>
+    
+    <section class="home" id="home">
+        <h3>Всех приетствую на своём портфолио!</h3>
+        <h1>Моё имя<span> Владислав</span></h1>
+        <p>На этом сайте я выкладываю работы которые я делаю <span>для себя</span></p>
+        <a href="#about"><button class="btn">Обо мне<i class="fas fa-user"></i></button></a>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>Обо</span> мне</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>Имя:</span> Владислав</h3>
+                <h3><span>Возраст:</span> 19 лет</h3>
+                <h3><span>Квалификация:</span> Front-End junior</h3>
+            </div>
+
+            <div class="container">
+                <div class="counter">
+                    <div class="box">
+                        <span>1+</span>
+                        <h3>Лет опыта</h3>
+                    </div>
+                </div>
+    
+                <div class="counter">
+                    <div class="box">
+                        <span>2+</span>
+                        <h3>Проектов выполнено</h3>
+                    </div>
+                </div>
+    
+                <!-- <div class="counter">
+                    <div class="box">
+                        <span>1+</span>
+                        <h3>happy clients</h3>
+                    </div>
+                </div>
+    
+                <div class="counter">
+                    <div class="box">
+                        <span>12+</span>
+                        <h3>awards won</h3>
+                    </div>
+                </div> -->
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="heading">Моё<span> развитие</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>Вёрстка</h3>
+                <p> В этом году я только начал знакомится с
+                    областью web-разработки, начал изучение вёрстки на HTML5/CSS3
+                    для начала работы в этой области, 
+                    и соответсвенно изучал их.
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Front-end разработка</h3>
+                <p>В этом году я доизучил вёрстку, 
+                    познакомился с инструментом SASS, 
+                    начал изучать основы JavaScript, и на данный момент
+                    изучил этот язык до этапа обработки и создания событий.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">Мои<span> работы</span></h1>
+        <div class="container">
+            <a href="/landings/bilgi/public/index.html" class="box">
+                <img src="/src/assets/landingsImgs/bilgi.jpg" alt="" srcset="">
+            </a>
+            <a href="/landings/agency/public/index.html" class="box">
+                <img src="/src/assets/landingsImgs/agency.jpg" alt="" srcset="">
+            </a>
+            <a href="/landings/resto/public/index.html" class="box">
+                
+                <img src="/src/assets/landingsImgs/resto.jpg" alt="">
+            </a>
+            
+
+        </div>
+    </section>
+
+    <!-- <section class="contact" id="contact">
+        <h1 class="heading">Связатся<span> со мной</span></h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <h3><i class="fas fa-envelop"></i>arctic.fox.coder@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>(сюда ввести рабочий телефон когда он появится)</h3>
+                    <h3><i class="fas fa-map-marker-alt"></i>Краснодарский край, Новороссийск </h3>
+                </div>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section> -->
+</body>
+
+<script src="/src/components/menu.js"></script>
+</html>
