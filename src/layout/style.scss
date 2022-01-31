@@ -8,7 +8,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    text-transform: capitalize;
+
     transition: all .2s linear;
 }
 
@@ -253,62 +253,6 @@ header{
     }
 }
 
-.education{
-
-    & .box-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding: 1rem 0;
-        padding-left: 3rem;
-
-        & .box{
-            width: 27rem;
-            margin: 4rem;
-            padding-left: 4rem;
-            border-left: .2rem solid #fff;
-            position: relative;
-            
-
-            & span{
-                font-size: 1.3rem;
-                background: #222;
-                color: #fff;
-                border-radius: 5rem;
-                padding: .5rem 2.5rem;
-            }
-
-            & h3{
-                font-size: 2rem;
-                color: #fff;
-                padding-top: 1.5rem;
-            }
-
-            & p{
-                font-size: 1.4rem;
-                color: #fff;
-                padding: 1rem 0;
-                text-transform: none;
-            }
-
-            & i{
-                position: absolute;
-                top: -1.5rem; left: -2.5rem;
-                height: 5rem;
-                width: 5rem;
-                border-radius: 50%;
-                line-height: 5rem;
-                text-align: center;
-                font-size: 2rem;
-                color: #fff;
-                background: #000;
-            }
-        }
-    }
-}
-
 .portfolio{
     & .container{
         display: grid;
@@ -327,7 +271,7 @@ header{
             background: #fff;
 
             &:hover img{
-                transform: scale(1.5);
+                transform: scale(1.1);
             }
 
             & img{
@@ -369,6 +313,15 @@ header{
 
                     & i{
                         padding-right: 1rem;
+                        color: #fff;
+                    }
+                }
+
+                & a{
+                    font-size: 2rem;
+                    color: #fff;
+                    text-decoration: none;
+                    &:visited{
                         color: #fff;
                     }
                 }
@@ -444,16 +397,6 @@ header{
             & .container{
                 grid-template-columns: 1fr;
                 margin: 0 auto;
-            }
-        }
-    }
-
-    .education{
-        & .box-container{
-            grid-template-columns: 1fr;
-            & .box{
-                width: 90%;
-                margin: 2rem;
             }
         }
     }

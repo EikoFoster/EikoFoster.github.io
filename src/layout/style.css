@@ -8,7 +8,6 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
@@ -281,66 +280,6 @@ header .navbar ul li a:hover {
   color: #fff;
 }
 
-.education .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 1rem 0;
-  padding-left: 3rem;
-}
-
-.education .box-container .box {
-  width: 27rem;
-  margin: 4rem;
-  padding-left: 4rem;
-  border-left: .2rem solid #fff;
-  position: relative;
-}
-
-.education .box-container .box span {
-  font-size: 1.3rem;
-  background: #222;
-  color: #fff;
-  border-radius: 5rem;
-  padding: .5rem 2.5rem;
-}
-
-.education .box-container .box h3 {
-  font-size: 2rem;
-  color: #fff;
-  padding-top: 1.5rem;
-}
-
-.education .box-container .box p {
-  font-size: 1.4rem;
-  color: #fff;
-  padding: 1rem 0;
-  text-transform: none;
-}
-
-.education .box-container .box i {
-  position: absolute;
-  top: -1.5rem;
-  left: -2.5rem;
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-  line-height: 5rem;
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  background: #000;
-}
-
 .portfolio .container {
   display: -ms-grid;
   display: grid;
@@ -367,8 +306,8 @@ header .navbar ul li a:hover {
 }
 
 .portfolio .container .box:hover img {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .portfolio .container .box img {
@@ -420,6 +359,16 @@ header .navbar ul li a:hover {
 
 .contact .row .content .info h3 i {
   padding-right: 1rem;
+  color: #fff;
+}
+
+.contact .row .content .info a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact .row .content .info a:visited {
   color: #fff;
 }
 
@@ -492,14 +441,6 @@ header .navbar ul li a:hover {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     margin: 0 auto;
-  }
-  .education .box-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  .education .box-container .box {
-    width: 90%;
-    margin: 2rem;
   }
   .portfolio .container {
     -ms-grid-columns: 1fr;

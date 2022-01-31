@@ -21,11 +21,10 @@
 
         <nav class="navbar">
             <ul>
-                <li><a href="">Главная</a></li>
-                <li><a href="">Обо мне </a></li>
-                <li><a href="">Моё развитие</a></li>
-                <li><a href="">Мои работы</a></li>
-                <!-- <li><a href="">Связь</a></li> -->
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне </a></li>
+                <li><a href="#portfolio">Мои работы</a></li>
+                <li><a href="#contact">Связь</a></li>
             </ul>
         </nav>
     </header>
@@ -52,13 +51,13 @@
                 <div class="counter">
                     <div class="box">
                         <span>1+</span>
-                        <h3>Лет опыта</h3>
+                        <h3>Лет опыта работы</h3>
                     </div>
                 </div>
     
                 <div class="counter">
                     <div class="box">
-                        <span>2+</span>
+                        <span>10+</span>
                         <h3>Проектов выполнено</h3>
                     </div>
                 </div>
@@ -82,36 +81,12 @@
         </div>
     </section>
 
-    <section class="education" id="education">
-        <h1 class="heading">Моё<span> развитие</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020</span>
-                <h3>Вёрстка</h3>
-                <p> В этом году я только начал знакомится с
-                    областью web-разработки, начал изучение вёрстки на HTML5/CSS3
-                    для начала работы в этой области, 
-                    и соответсвенно изучал их.
-                </p>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2021</span>
-                <h3>Front-end разработка</h3>
-                <p>В этом году я доизучил вёрстку, 
-                    познакомился с инструментом SASS, 
-                    начал изучать основы JavaScript, и на данный момент
-                    изучил этот язык до этапа обработки и создания событий.
-                </p>
-            </div>
-        </div>
-    </section>
-
     <section class="portfolio" id="portfolio">
         <h1 class="heading">Мои<span> работы</span></h1>
         <div class="container">
+            <a href="/landings/mistgarden/public/index.html" class="box">
+                <img src="/src/assets/landingsImgs/misteryGarden.jpg" alt="" srcset="">
+            </a>
             <a href="/landings/agency/public/index.html" class="box">
                 <img src="/src/assets/landingsImgs/agency.jpg" alt="" srcset="">
             </a>
@@ -124,7 +99,7 @@
         </div>
     </section>
 
-    <!-- <section class="contact" id="contact">
+    <section class="contact" id="contact">
         <h1 class="heading">Связатся<span> со мной</span></h1>
         <div class="row">
             <div class="content">
@@ -132,7 +107,7 @@
 
                 <div class="info">
                     <h3><i class="fas fa-envelop"></i>arctic.fox.coder@gmail.com</h3>
-                    <h3><i class="fas fa-phone"></i>(сюда ввести рабочий телефон когда он появится)</h3>
+                    <h3><i class="fas fa-paper-plane"></i><a href="https://t.me/Kara_Kaze">Telegram</a></h3>
                     <h3><i class="fas fa-map-marker-alt"></i>Краснодарский край, Новороссийск </h3>
                 </div>
             </div>
@@ -145,7 +120,7 @@
                 <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
             </form>
         </div>
-    </section> -->
+    </section>
 </body>
 
 <script src="/src/components/menu.js"></script>
